@@ -11,4 +11,7 @@ module.exports = {
     },
     mode:"development",
     devtool:"source-map",
+    externals: {
+        'vue' : 'Vue',
+    }
 }
